@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-areas: 
+  "header header"
+  "sidebar profile"
+  "footer footer";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.wrapperContent {
+  grid-area: profile;
+  background-color: cyan;
+}

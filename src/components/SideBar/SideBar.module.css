@@ -1,0 +1,14 @@
+.nav { 
+    grid-area: sidebar;
+    background-color: chocolate;
+   
+}
+
+.item {
+    color:white;
+    text-decoration: none;
+}
+
+.active {
+    color:crimson;
+}

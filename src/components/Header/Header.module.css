@@ -1,0 +1,9 @@
+.wrap {
+    grid-area: header;
+    background-color:crimson;
+
+}
+.loginBlock a {
+    float:right;
+    color: antiquewhite;
+}
